@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('http://hdqwalls.com/wallpapers/2018-fortnite-video-game-4k-kl.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mapcard{
+    margin-top: 5%;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255);
+    box-shadow: 5px 5px 8px #888888;
+    width: 650px;
+    height: 450px;
+    margin-left: 10%;
+    float: left;
+    background-image: url('assets/images/creativebackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1.2s ease-in-out;
+}
+
+
+a{
+    color: unset;
+    border: unset;
+    font-style: unset;
+    text-decoration: unset;
+    transition: all .2s ease-in-out;
+}
+
+a:hover{
+    color: orange;
+    text-shadow: 2px 2px #ff0000;
+    transform: scale(1.1);
+    font-size: 34px;
+}
+.cardtitle{
+    font-size: 34px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 10;
+    transition: all 1.2s ease-in-out;
+}
+
+.cardimg{
+    margin-left: 15%;
+    box-shadow: 5px 5px 8px #888888;
+    border: 4px solid white;
+    border-radius: 10px;
+    text-align: center;
+    height: 50%;
+    width: 70%;
+    z-index: 10;
+}
+
+
+.cardmapcode{
+    font-family: BurbankBigCondensed-Bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    z-index: 10;
+}
+
+
+
+
+
+@font-face {
+    font-family: BurbankBigCondensed-Bold;
+    src: url(assets/fonts/BurbankBigCondensed-Bold.otf);
+}
+
+div {
+    font-family: BurbankBigCondensed-Bold;
+}
