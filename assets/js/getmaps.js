@@ -25,5 +25,11 @@ for (i = 0, l = json.maps.length; i < l; i++) {
     CardTitleP.innerHTML = json.maps[i].Author;          
     CardTitleP.setAttribute('class', 'cardtitle' );
     document.getElementById('mapcard' + json.maps[i].MapCode).appendChild(CardTitleP);   
+
+    //Add Map Code
+    var CardMapCode = document.createElement("P");   
+    CardMapCode.innerHTML = "<a href='https://fortnite.com/fn/" + json.maps[i].MapCode + "'>Map Code: " + json.maps[i].MapCode + "</a>";          
+    CardMapCode.setAttribute('class', 'cardmapcode' );
+    document.getElementById('mapcard' + json.maps[i].MapCode).appendChild(CardMapCode);   
 }
 });
