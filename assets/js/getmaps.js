@@ -38,5 +38,13 @@ for (i = 0, l = json.maps.length; i < l; i++) {
     CardMapCode.innerHTML = "<a href='https://fortnite.com/fn/" + json.maps[i].MapCode + "'>Map Code: " + json.maps[i].MapCode + "</a>";          
     CardMapCode.setAttribute('class', 'cardmapcode' );
     document.getElementById('mapcard' + json.maps[i].MapCode).appendChild(CardMapCode);   
+
+
+
+        //Add SAC
+        var CardMapCode = document.createElement("P");   
+        CardMapCode.innerHTML = "Support-a-Creator: " + json.maps[i].SAC;          
+        CardMapCode.setAttribute('class', 'cardmapcode' );
+        document.getElementById('mapcard' + json.maps[i].MapCode).appendChild(CardMapCode);   
 }
 });
