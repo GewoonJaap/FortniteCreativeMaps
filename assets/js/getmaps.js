@@ -46,5 +46,20 @@ for (i = 0, l = json.maps.length; i < l; i++) {
         CardMapCode.innerHTML = "Support-a-Creator: " + json.maps[i].SAC;          
         CardMapCode.setAttribute('class', 'cardmapcode' );
         document.getElementById('mapcard' + json.maps[i].MapCode).appendChild(CardMapCode);   
+
+
+
+for (i2 = 0, l2 = json.maps[i].IMG2.length; i2 < l2; i2++) {
+    console.log(json.maps[i].IMG2[i2]);
+
+        //Add image
+
+        var CardImage = document.createElement("P");   
+        CardImage.innerHTML = "<a href='" +json.maps[i].IMG2[i2] + "' data-lightbox='" + json.maps[i].MapCode + "'></a>"         
+        CardImage.setAttribute('class', 'cardimagecode' );
+        document.getElementById('mapcard' + json.maps[i].MapCode).appendChild(CardImage);   
+    }
+
+
 }
 });
