@@ -4,12 +4,14 @@
         {
             "Author": "Jan",
             "IMGUrl": "https:/google.nl",
-            "SAC" : "TVG"
+            "SAC" : "TVG",
+            "MapCode": "1743-0750-4752"
         },
         {
             "Author": "Jan2",
             "IMGUrl": "https:/google.nl",
-            "SAC" : "TVG2"
+            "SAC" : "TVG2",
+            "MapCode": "1743-0750-4753"
         }
 
     ]
