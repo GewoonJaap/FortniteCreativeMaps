@@ -3,15 +3,23 @@
 
         {
             "Author": "Jan",
-            "IMGUrl": "https://i.imgur.com/LMytOaa.png",
+            "IMGUrl": "https://i.imgur.com/00c43T3.png",
+            "MapCode": "1743-0750-4753",
             "SAC" : "TVG",
-            "MapCode": "1743-0750-4752"
+                        "IMG2" : [
+                "https://i.imgur.com/LMytOaa.png",
+                "https://i.imgur.com/00c43T3.png"
+                ]
         },
         {
             "Author": "Jan2",
-            "IMGUrl": "https://i.imgur.com/00c43T3.png",
+            "IMGUrl": "https://i.imgur.com/LMytOaa.png",
+            "MapCode": "1743-0750-4752",
             "SAC" : "TVG2",
-            "MapCode": "1743-0750-4753"
+            "IMG2" : [
+                "https://i.imgur.com/LMytOaa.png",
+                "https://i.imgur.com/00c43T3.png"
+                ]
         }
 
     ]
