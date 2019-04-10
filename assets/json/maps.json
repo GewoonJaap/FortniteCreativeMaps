@@ -45,6 +45,24 @@
             "IMG2" : [
                 "./assets/images/placeholder.jpg"
                 ]
+        },
+        {
+            "Author": "senix",
+            "IMGUrl": "https://i.imgur.com/ep7xCsu.png",
+            "MapCode": "0551-6888-0933",
+            "SAC" : "senix",
+            "IMG2" : [
+                "./assets/images/placeholder.jpg"
+                ]
+        },
+        {
+            "Author": "selage",
+            "IMGUrl": "./assets/images/placeholder.jpg",
+            "MapCode": "3847-9331-2064",
+            "SAC" : "senix",
+            "IMG2" : [
+                "./assets/images/placeholder.jpg"
+                ]
         }
 
     ]
