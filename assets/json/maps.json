@@ -2,6 +2,7 @@
     "maps": [
 
         {
+            "MapName": "Aztec Attack",
             "Author": "Senix",
             "IMGUrl": "https://i.imgur.com/5MkFh0Z.jpg",
             "MapCode": "6504-2161-9839",
@@ -11,7 +12,8 @@
                 ]
         },
         {
-            "Author": "senix",
+            "MapName": "Lefty Leave",
+            "Author": "Senix",
             "IMGUrl": "https://i.imgur.com/LMytOaa.png",
             "MapCode": "1743-0750-4752",
             "SAC" : "senix",
@@ -20,7 +22,8 @@
                 ]
         },
         {
-            "Author": "senix",
+            "MapName": "Deep Discovery",
+            "Author": "Senix",
             "IMGUrl": "https://i.imgur.com/00c43T3.png",
             "MapCode": "0036-5652-3629",
             "SAC" : "senix",
@@ -29,7 +32,8 @@
                 ]
         },
         {
-            "Author": "senix",
+            "MapName": "Pump It! Shotgun arena",
+            "Author": "Senix",
             "IMGUrl": "https://i.imgur.com/WPJp0Pa.png",
             "MapCode": "2201-4498-7425",
             "SAC" : "senix",
@@ -38,7 +42,8 @@
                 ]
         },
         {
-            "Author": "senix",
+            "MapName": "Console warmup",
+            "Author": "Senix",
             "IMGUrl": "./assets/images/placeholder.jpg",
             "MapCode": "5235-5092-9471",
             "SAC" : "senix",
@@ -47,7 +52,8 @@
                 ]
         },
         {
-            "Author": "senix",
+            "MapName": "Aim Deagle",
+            "Author": "Senix",
             "IMGUrl": "https://i.imgur.com/ep7xCsu.png",
             "MapCode": "0551-6888-0933",
             "SAC" : "senix",
@@ -56,7 +62,8 @@
                 ]
         },
         {
-            "Author": "selage",
+            "MapName": "SELAGE'S EDIT COURSES!",
+            "Author": "Selage",
             "IMGUrl": "./assets/images/placeholder.jpg",
             "MapCode": "3847-9331-2064",
             "SAC" : "senix",

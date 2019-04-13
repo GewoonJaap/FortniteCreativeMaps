@@ -47,7 +47,7 @@ function AddCreativeMapDelay(url){
 // Add Card Title
        console.log(jsonstring.maps[arrayid].Author)
     var CardTitleP = document.createElement("P");   
-    CardTitleP.innerHTML = jsonstring.maps[arrayid].Author;          
+    CardTitleP.innerHTML = jsonstring.maps[arrayid].Author + " | " + jsonstring.maps[arrayid].MapName;          
     CardTitleP.setAttribute('class', 'cardtitle' );
     document.getElementById('mapcard' + jsonstring.maps[arrayid].MapCode).appendChild(CardTitleP);   
    
