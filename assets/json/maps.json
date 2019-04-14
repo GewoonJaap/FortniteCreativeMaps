@@ -18,6 +18,16 @@
                 ]
         },
         {
+            "MapName": "Lachlan's Hide and Seek",
+            "Author": "Lachy",
+            "IMGUrl": "https://static-assets-prod.epicgames.com/fn/codes/9764-1593-4118.jpg",
+            "MapCode": "9764-1593-4118",
+            "SAC" : "Lachy",
+                        "IMG2" : [
+                "https://static-assets-prod.epicgames.com/fn/codes/9764-1593-4118.jpg"
+                ]
+        },
+        {
             "MapName": "Lefty Leave",
             "Author": "Senix",
             "IMGUrl": "https://i.imgur.com/LMytOaa.png",
