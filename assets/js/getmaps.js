@@ -92,7 +92,5 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
 
    function CopyToClipBoard(elementid){
       /* Get the text field */
-  var copyText = elementid;
-  window.prompt("Copy to clipboard: Ctrl+C, Enter", copyText);
 
    }
