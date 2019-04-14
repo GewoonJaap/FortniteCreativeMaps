@@ -79,6 +79,61 @@
                 ]
         },
         {
+            "MapName": "Freaky Flights",
+            "Author": "Senix",
+            "IMGUrl": "https://i.imgur.com/4kf5bFu.png",
+            "MapCode": "1743-0750-4752",
+            "SAC" : "senix",
+            "IMG2" : [
+                "https://i.imgur.com/4kf5bFu.png"
+                ]
+        },
+        {
+            "MapName": "Black Snow",
+            "Author": "Asa",
+            "IMGUrl": "http://i67.tinypic.com/ml36l3.jpg",
+            "MapCode": "5751-9969-7184",
+            "SAC" : "asa",
+            "IMG2" : [
+                "http://i67.tinypic.com/ml36l3.jpg"
+                ]
+        },
+        {
+            "MapName": "Trusty Tires",
+            "Author": "dfault_skin",
+            "IMGUrl": "https://i.imgur.com/tmeaaJC.jpg",
+            "MapCode": "9565-8908-6675",
+            "SAC" : "dfault_skin",
+            "IMG2" : [
+                "https://i.imgur.com/tmeaaJC.jpg"
+                ]
+        },
+        {
+            "MapName": "Int. Snipe Station FFA",
+            "Author": "dfault_skin",
+            "IMGUrl": "https://i.imgur.com/kWDPESa.jpg",
+            "MapCode": "6752-0807-9594",
+            "SAC" : "dfault_skin",
+            "IMG2" : [
+                "https://i.imgur.com/kWDPESa.jpg"
+                ]
+        },
+        {
+            "MapName": "AWP LEGO",
+            "Author": "Senix",
+            "IMGUrl": "https://i.imgur.com/UOz8ZtJ.png",
+            "MapCode": "4265-3743-2329",
+            "SAC" : "senix",
+            "IMG2" : [
+                "https://i.imgur.com/jurJ1CQ.png",
+                "https://i.imgur.com/vRZlJYf.png",
+                "https://i.imgur.com/SqNwNQT.png",
+                "https://i.imgur.com/sMTXKeg.png",
+                "https://i.imgur.com/qsw9sgi.png",
+                "https://i.imgur.com/UOz8ZtJ.png"
+                ]
+        },
+        {
             "MapName": "Neon-Surf Parkour Course",
             "Author": "HOOSHEN",
             "IMGUrl": "https://i.imgur.com/Ze20wYu.jpg",
