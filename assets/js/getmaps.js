@@ -62,7 +62,7 @@ function AddCreativeMapDelay(url){
 
     //Add Map Code
     var CardMapCode = document.createElement("P");   
-    CardMapCode.innerHTML = "<a onmouseover='CopyToClipBoard(" + jsonstringparse.maps[arrayid].MapCode + ")' href='https://fortnite.com/fn/" + jsonstringparse.maps[arrayid].MapCode + "'>Map Code: " + jsonstringparse.maps[arrayid].MapCode + "</a>";          
+    CardMapCode.innerHTML = "<p onmouseover='CopyToClipBoard(" + jsonstringparse.maps[arrayid].MapCode + ")' ><a href='https://fortnite.com/fn/" + jsonstringparse.maps[arrayid].MapCode + "'>Map Code: " + jsonstringparse.maps[arrayid].MapCode + "</a></p>";          
     CardMapCode.setAttribute('class', 'cardmapcode' );
     document.getElementById('mapcard' + jsonstringparse.maps[arrayid].MapCode).appendChild(CardMapCode);   
 
