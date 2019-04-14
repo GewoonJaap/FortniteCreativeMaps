@@ -179,6 +179,17 @@
                 ]
         },
         {
+            "MapName": "NATURAL PLATFORMING",
+            "Author": "ACTIO",
+            "IMGUrl": "https://i.imgur.com/Bm2rXXx.png",
+            "MapCode": "6411-6930-7438",
+            "SAC" : "ACTIO",
+            "IMG2" : [
+                "https://i.imgur.com/secWOcS.png",
+                "https://i.imgur.com/55Ah3LW.png"
+                ]
+        },
+        {
             "MapName": "Cizzorz Deathrun Challange",
             "Author": "ITSCIZZORZ",
             "IMGUrl": "https://i.imgur.com/4uZoZ1n.png",
