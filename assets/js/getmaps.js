@@ -116,7 +116,7 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
 
    function AutomaticAdder(){
        document.getElementById('loader').style.visibility = 'visible';
-       MapsToGet = MapsToGet +3;
+       MapsToGet = MapsToGet +6;
        ForEachLoopAddNew(jsonstring);
        loopchecker();
    }
