@@ -6,7 +6,7 @@ var jsonstringparse;
 $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.json", function( json ) {
     jsonstring = json;
     console.log(json.maps.length)
-for (i = 0, l = json.maps.length; i < l; i++) {
+for (i = 0, l = json.maps.length; i < l && i < 3; i++) {
     AddCreativeMapDelay(i)
 
     console.log(json.maps[i].SAC);
