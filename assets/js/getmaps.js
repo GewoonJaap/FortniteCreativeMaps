@@ -105,9 +105,15 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
 
    // End of page
 
+   function AutomaticAdder(){
+       MapsToGet = MapsToGet +3;
+       ForEachLoopAddNew(jsonstring);
+   }
 
-   $(window).scroll(function() {
-    if($(window).scrollTop() == $(document).height() - $(window).height()) {
-          console.log('end of page');
-    }
-});
+
+   $('.container').infiniteScroll({
+    // options
+    path: 'AutomaticAdder',
+    append: '.cards',
+    history: false,
+  });
