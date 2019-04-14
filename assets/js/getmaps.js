@@ -82,8 +82,24 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
         //Add image
 
         var CardImage = document.createElement("P");   
-        CardImage.innerHTML = "<a href='" +jsonstringparse.maps[arrayid].IMG2[i2] + "' data-lightbox='" + jsonstringparse.maps[arrayid].MapCode + "'></a>"         
+        CardImage.innerHTML = "<a onmouseover='CopyToClipBoard(" + jsonstringparse.maps[arrayid].MapCode + ")' href='" +jsonstringparse.maps[arrayid].IMG2[i2] + "' data-lightbox='" + jsonstringparse.maps[arrayid].MapCode + "'></a>"         
         CardImage.setAttribute('class', 'cardimagecode' );
         document.getElementById('mapcard' + jsonstringparse.maps[arrayid].MapCode).appendChild(CardImage);   
     }
+   }
+
+
+
+   function CopyToClipBoard(elementid){
+      /* Get the text field */
+  var copyText = document.getElementById(elementid);
+
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
    }
