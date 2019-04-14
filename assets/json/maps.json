@@ -42,6 +42,30 @@
                 ]
         },
         {
+            "MapName": "Breaky Bridge",
+            "Author": "Senix",
+            "IMGUrl": "https://i.imgur.com/zFzdvuP.png",
+            "MapCode": "1325-0104-0476",
+            "SAC" : "senix",
+            "IMG2" : [
+                "https://i.imgur.com/NDMFAee.png",
+                "https://i.imgur.com/aj7li1l.png",
+                "https://i.imgur.com/0RO2fxb.png",
+                "https://i.imgur.com/3Qke1d6.png",
+                "https://i.imgur.com/X4IEO8a.png",
+                "https://i.imgur.com/O02fGlH.png",
+                "https://i.imgur.com/5ZhblET.png",
+                "https://i.imgur.com/OllOwRb.png",
+                "https://i.imgur.com/v8xdMIk.png",
+                "https://i.imgur.com/3t71IVi.png",
+                "https://i.imgur.com/T3IfIG8.png",
+                "https://i.imgur.com/FxFlGyd.png",
+                "https://i.imgur.com/Dtie4Q3.png",
+                "https://i.imgur.com/SkJL9Cc.png",
+                "https://i.imgur.com/wh0GMiB.png"
+                ]
+        },
+        {
             "MapName": "Console warmup",
             "Author": "Senix",
             "IMGUrl": "./assets/images/placeholder.jpg",
