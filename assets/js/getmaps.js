@@ -3,6 +3,7 @@ var i = 0;
 var jsonstring;
 var jsonstringparse;
 var MapsToGet = 3;
+var listElm = document.querySelector('#container');
 
 $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.json", function( json ) {
     jsonstring = json;
@@ -110,13 +111,9 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
        ForEachLoopAddNew(jsonstring);
    }
 
-   document.addEventListener("DOMContentLoaded", function() {
 
-    $('.container').infiniteScroll({
-        // options
-        path: 'AutomaticAdder()',
-        append: '.cards',
-        history: false,
-      });
-      console.log('page loaded')
-});
+   listElm.addEventListener('scroll', function() {
+    if (listElm.scrollTop + listElm.clientHeight >= listElm.scrollHeight) {
+        AutomaticAdder();
+    }
+  });
