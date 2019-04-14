@@ -114,7 +114,7 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
 
     $('.container').infiniteScroll({
         // options
-        path: 'AutomaticAdder',
+        path: 'AutomaticAdder()',
         append: '.cards',
         history: false,
       });
