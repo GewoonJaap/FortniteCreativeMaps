@@ -3,7 +3,7 @@ var i = 0;
 var jsonstring;
 var jsonstringparse;
 var MapsToGet = 3;
-var listElm = document.querySelector('cards');
+
 
 $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.json", function( json ) {
     jsonstring = json;
