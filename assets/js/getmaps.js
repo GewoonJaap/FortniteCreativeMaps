@@ -3,6 +3,7 @@ var i = 0;
 var jsonstring;
 var jsonstringparse;
 var MapsToGet = 3;
+var listElm;
 
 
 $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.json", function( json ) {
@@ -113,7 +114,7 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
 
 
    document.addEventListener("DOMContentLoaded", function() {
-   var listElm = document.querySelectorAll("body");
+   listElm = document.querySelectorAll("body");
    test();
 });
 function test(){
