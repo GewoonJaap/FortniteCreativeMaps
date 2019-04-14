@@ -5,8 +5,8 @@ var jsonstringparse;
 var MapsToGet = 3;
 
 $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.json", function( json ) {
-    ForEachLoopAddNew(json)
     jsonstring = json;
+    ForEachLoopAddNew(jsonstring);
     console.log(json.maps.length)
 
 });
