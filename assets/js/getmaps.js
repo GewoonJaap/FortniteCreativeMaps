@@ -117,12 +117,10 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
    listElm = document.querySelectorAll("body");
    test();
 });
-function test(){
 listElm.addEventListener('scroll', function() {
     if (listElm.scrollTop + listElm.clientHeight >= listElm.scrollHeight) {
         AutomaticAdder();
         console.log('scrolled');
     }
   });
-  
-}
+ 
