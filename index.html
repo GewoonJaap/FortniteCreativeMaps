@@ -43,10 +43,12 @@
 
 </div>
 <div class="loader" id="loader"></div>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js"></script>
    </body>
 
    <script>
 document.addEventListener("DOMContentLoaded", function() {
+   lazyLoadInstance.update();
 	//The first argument are the elements to which the plugin shall be initialized
 	//The second argument has to be at least a empty object or a object with your desired options
    OverlayScrollbars(document.querySelectorAll("body"), { 	callbacks: {
@@ -62,7 +64,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+    // ... more custom settings?
+});
 
 function randombg(){
   var random= Math.floor(Math.random() * 6) + 0;

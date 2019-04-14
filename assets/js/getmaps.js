@@ -66,7 +66,7 @@ function AddCreativeMapDelay(url){
     //Add image
 
     var CardImage = document.createElement("P");   
-    CardImage.innerHTML = "<a href='" +jsonstringparse.maps[arrayid].IMGUrl + "' data-lightbox='" + jsonstringparse.maps[arrayid].MapCode + "'><img src='" +jsonstringparse.maps[arrayid].IMGUrl + "' class='cardimg'></img></a>"         
+    CardImage.innerHTML = "<a href='" +jsonstringparse.maps[arrayid].IMGUrl + "' data-lightbox='" + jsonstringparse.maps[arrayid].MapCode + "'><img alt='A lazy image' data-src='" +jsonstringparse.maps[arrayid].IMGUrl + "' class='cardimg'></img></a>"         
     CardImage.setAttribute('class', 'cardimagecode' );
     document.getElementById('mapcard' + jsonstringparse.maps[arrayid].MapCode).appendChild(CardImage);   
 
