@@ -34,11 +34,25 @@ a{
     transition: all .2s ease-in-out;
 }
 
+#nomarkup{
+    color: unset;
+    border: unset;
+    font-style: unset;
+    text-decoration: unset;
+    transition: unset;
+}
+
 a:hover{
     color: orange;
     text-shadow: 2px 2px #ff0000;
     transform: scale(1.1);
     font-size: 34px;
+}
+
+#nomarkup:hover{
+    text-shadow: none;
+    transform: none;
+    font-size: unset;
 }
 .cardtitle{
     font-size: 34px;
@@ -102,4 +116,21 @@ a:hover{
 
 div {
     font-family: BurbankBigCondensed-Bold;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 70px;
+    margin-top: -40px;
+    background-color: darkslategray;
+    text-align: left;
+    width: 100%;
+
+}
+
+footer p{
+    color: #c0c0c0;
+    font-size: 22px;
+    text-align: center;
 }
