@@ -73,3 +73,7 @@ body {
       text-align: left;
     }
   }
+
+  #icon{
+    float: right;
+  }

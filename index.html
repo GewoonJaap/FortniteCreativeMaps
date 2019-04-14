@@ -10,6 +10,7 @@
       <script src="assets/js/getmaps.js"></script>
       <link rel="stylesheet" type="text/css" href="index.css">
       <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
 
@@ -40,6 +41,7 @@
       <a class='nomarkup active' href="">Maps</a>
       <a class='nomarkup' href="https://assistant.google.com/services/invoke/uid/000000391cded066">Mr. Fortnite</a>
       <a class='nomarkup' href="https://docs.google.com/forms/d/e/1FAIpQLSdH3Iu5UN_xDcg2E1jPvriPBZJRjHxlH4VJhkIOneSLek8eZg/viewform">Submit your map</a>
+      <a class='nomarkup' id='icon' onclick='ToggleMusic()'><i class="material-icons">music_note</i></a>
 
     </div>
 
@@ -74,7 +76,8 @@
          </div>
 
 
-
+         <audio id="BackgroundSound" src="./assets/music/Coral.mp3" preload="auto">
+         </audio>
 </div>
 <div class="loader" id="loader"></div>
 
@@ -86,6 +89,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js"></script>
+<script src="assets/js/core.js"></script>
    </body>
 
    <script>
