@@ -4,6 +4,7 @@ var jsonstring;
 var jsonstringparse;
 var MapsToGet = 3;
 var listElm;
+var mapsadded = 0;
 
 
 
@@ -85,6 +86,11 @@ function AddCreativeMapDelay(url){
         document.getElementById('mapcard' + jsonstringparse.maps[arrayid].MapCode).appendChild(CardMapCode);   
 
 
+        //Add map to var
+
+        mapsadded++;
+
+
 
 for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
     console.log(jsonstringparse.maps[arrayid].IMG2[i2]);
@@ -116,7 +122,7 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
    }
 
    function loopchecker(){
-    if(i == MapsToGet || i == jsonstring.maps.length){
+    if(mapsadded == MapsToGet || mapsadded == jsonstring.maps.length){
         document.getElementById('loader').style.visibility = 'hidden';
     }
     else{
