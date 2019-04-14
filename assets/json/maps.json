@@ -119,6 +119,76 @@
                 ]
         },
         {
+            "MapName": "Bounce Pad Deathmatch",
+            "Author": "KojackNumber2",
+            "IMGUrl": "https://i.imgur.com/q98m13Z.png",
+            "MapCode": "8792-1332-7866",
+            "SAC" : "KojackNumber2",
+            "IMG2" : [
+                "https://i.imgur.com/q98m13Z.png"
+                ]
+        },
+        {
+            "MapName": "The Enrichment Center",
+            "Author": "notnellaf",
+            "IMGUrl": "https://cdn.discordapp.com/attachments/196309945770049536/538450222527938581/smaller_thumbnail.png",
+            "MapCode": "7332-3216-8433",
+            "SAC" : "notnellaf",
+            "IMG2" : [
+                "https://cdn.discordapp.com/attachments/196309945770049536/538450222527938581/smaller_thumbnail.png"
+                ]
+        },
+        {
+            "MapName": "Sky Snipes V2",
+            "Author": "notnellaf",
+            "IMGUrl": "https://static-assets-prod.epicgames.com/fn/static/creative/SkySnipes2.jpg",
+            "MapCode": "8523-7968-7394",
+            "SAC" : "notnellaf",
+            "IMG2" : [
+                "https://static-assets-prod.epicgames.com/fn/static/creative/SkySnipes2.jpg"
+                ]
+        },
+        {
+            "MapName": "Avalanche",
+            "Author": "KKSlider",
+            "IMGUrl": "https://i.imgur.com/RvhHnJC.jpg",
+            "MapCode": "0156-8748-1505",
+            "SAC" : "KK-Slider",
+            "IMG2" : [
+                "https://i.imgur.com/RvhHnJC.jpg"
+                ]
+        },
+        {
+            "MapName": "Sniper Arena Chinatown",
+            "Author": "wickedsick-88",
+            "IMGUrl": "https://s15.directupload.net/images/190111/j7bpd2yq.jpg",
+            "MapCode": "0630-6697-7768",
+            "SAC" : "wickedsick-88",
+            "IMG2" : [
+                "https://s15.directupload.net/images/190111/j7bpd2yq.jpg"
+                ]
+        },
+        {
+            "MapName": "Kingdom of stone Parkour",
+            "Author": "vanyapoker",
+            "IMGUrl": "https://i.imgur.com/0K2Y0R0.jpg",
+            "MapCode": "7124-5224-0371",
+            "SAC" : "vanyapoker",
+            "IMG2" : [
+                "https://i.imgur.com/0K2Y0R0.jpg"
+                ]
+        },
+        {
+            "MapName": "Forbidden Jungle",
+            "Author": "jay",
+            "IMGUrl": "https://cdn.discordapp.com/attachments/538393190185566209/551415835378450432/Epic.jpg",
+            "MapCode": "4163-4510-7806",
+            "SAC" : "jay",
+            "IMG2" : [
+                "https://cdn.discordapp.com/attachments/538393190185566209/551415835378450432/Epic.jpg"
+                ]
+        },
+        {
             "MapName": "AWP LEGO",
             "Author": "Senix",
             "IMGUrl": "https://i.imgur.com/UOz8ZtJ.png",
