@@ -169,6 +169,16 @@
                 ]
         },
         {
+        "MapName": "TILTED 2119",
+        "Author": "MAKAMAHON123",
+        "IMGUrl": "https://static-assets-prod.epicgames.com/fn/static/creative/Tilted211902.jpg",
+        "MapCode": "0497-4451-3745",
+        "SAC" : "MAKAMAHON123",
+        "IMG2" : [
+            "https://static-assets-prod.epicgames.com/fn/static/creative/Tilted211902.jpg"
+            ]
+    },
+        {
             "MapName": "JESGRAN’S DEATHRUN 2.0",
             "Author": "JesGran",
             "IMGUrl": "https://i.imgur.com/8hzxjHE.png",
