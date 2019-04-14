@@ -108,6 +108,7 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
 
    $(window).scroll(function() {
     if($(window).scrollTop() + $(window).height() >= $(document).height()){
+        console.log('Reached end of page');
        MapsToGet + 4;
        ForEachLoopAddNew(jsonstring);
     }
