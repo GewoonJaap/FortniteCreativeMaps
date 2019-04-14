@@ -34,7 +34,7 @@ a{
     transition: all .2s ease-in-out;
 }
 
-#nomarkup{
+.nomarkup{
     color: unset;
     border: unset;
     font-style: unset;
@@ -49,10 +49,10 @@ a:hover{
     font-size: 34px;
 }
 
-#nomarkup:hover{
+.nomarkup:hover{
     text-shadow: none;
     transform: none;
-    font-size: unset;
+    font-size: 20px;
 }
 .cardtitle{
     font-size: 34px;
@@ -131,6 +131,6 @@ footer {
 
 footer p{
     color: #c0c0c0;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
 }
