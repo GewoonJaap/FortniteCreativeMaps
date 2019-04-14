@@ -58,6 +58,40 @@
                 ]
         },
         {
+            "MapName": "Micro Battles",
+            "Author": "xd-tryharder",
+            "IMGUrl": "https://i.imgur.com/HuR5o3t.jpg",
+            "MapCode": "3048-5962-2717",
+            "SAC" : "xd-tryharder",
+            "IMG2" : [
+                "https://i.imgur.com/lgPclUW.png",
+                "https://i.imgur.com/Mrh17BL.png"
+                ]
+        },
+        {
+            "MapName": "FFA GREEK TEMPLE",
+            "Author": "IscarioteGG",
+            "IMGUrl": "https://i.imgur.com/sY2cyNG.jpg",
+            "MapCode": "0248-7282-0889",
+            "SAC" : "IscarioteGG",
+            "IMG2" : [
+                "https://i.imgur.com/sY2cyNG.jpg"
+                ]
+        },
+        {
+            "MapName": "Neon-Surf Parkour Course",
+            "Author": "HOOSHEN",
+            "IMGUrl": "https://i.imgur.com/Ze20wYu.jpg",
+            "MapCode": "0983-2790-7319",
+            "SAC" : "HOOSHEN",
+            "IMG2" : [
+                "https://i.imgur.com/gd2Yl9D.png",
+                "https://i.imgur.com/yIaRYzv.png",
+                "https://i.imgur.com/iDyfE37.png",
+                "https://i.imgur.com/dqH8KyB.png"
+                ]
+        },
+        {
             "MapName": "Pump It! Shotgun arena",
             "Author": "Senix",
             "IMGUrl": "https://i.imgur.com/WPJp0Pa.png",
