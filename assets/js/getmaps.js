@@ -1,25 +1,31 @@
 console.log("Get Maps.js loaded!");
-var i;
+var i = 0;
 var jsonstring;
 var jsonstringparse;
 
 $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.json", function( json ) {
+    ForEachLoopAddNew(json)
     jsonstring = json;
     console.log(json.maps.length)
-for (i = 0, l = json.maps.length; i < l && i < 3; i++) {
-    AddCreativeMapDelay(i)
 
-    console.log(json.maps[i].SAC);
-    console.log(json.maps[i].Author);
-    console.log(json.maps[i].IMGUrl);
-    console.log(json.maps[i].MapCode);
+});
 
-
-
-
+function ForEachLoopAddNew(json){
+    for (i, l = json.maps.length; i < l && i < 3; i++) {
+        AddCreativeMapDelay(i)
+    
+        console.log(json.maps[i].SAC);
+        console.log(json.maps[i].Author);
+        console.log(json.maps[i].IMGUrl);
+        console.log(json.maps[i].MapCode);
+    
+    
+    
+    
+    
+    }
 
 }
-});
 
 
 function AddCreativeMapDelay(url){
