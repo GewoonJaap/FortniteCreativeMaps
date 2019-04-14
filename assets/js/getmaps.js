@@ -109,6 +109,18 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
    // End of page
 
    function AutomaticAdder(){
+       document.getElementById('loader').style.visibility = visible;
        MapsToGet = MapsToGet +3;
        ForEachLoopAddNew(jsonstring);
+       loopchecker();
+   }
+
+   function loopchecker(){
+    if(i == MapsToGet){
+        document.getElementById('loader').style.visibility = hidden;
+    }
+    else{
+        loopchecker()
+    }
+
    }
