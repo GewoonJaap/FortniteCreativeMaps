@@ -62,7 +62,7 @@ function AddCreativeMapDelay(url){
 
     //Add Map Code
     var CardMapCode = document.createElement("P");   
-    CardMapCode.innerHTML = "<a href='https://fortnite.com/fn/" + jsonstringparse.maps[arrayid].MapCode + "'>Map Code: " + jsonstringparse.maps[arrayid].MapCode + "</a>";          
+    CardMapCode.innerHTML = "<a onmouseover='CopyToClipBoard(" + jsonstringparse.maps[arrayid].MapCode + ")' href='https://fortnite.com/fn/" + jsonstringparse.maps[arrayid].MapCode + "'>Map Code: " + jsonstringparse.maps[arrayid].MapCode + "</a>";          
     CardMapCode.setAttribute('class', 'cardmapcode' );
     document.getElementById('mapcard' + jsonstringparse.maps[arrayid].MapCode).appendChild(CardMapCode);   
 
@@ -82,7 +82,7 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
         //Add image
 
         var CardImage = document.createElement("P");   
-        CardImage.innerHTML = "<a onmouseover='CopyToClipBoard(" + jsonstringparse.maps[arrayid].MapCode + ")' href='" +jsonstringparse.maps[arrayid].IMG2[i2] + "' data-lightbox='" + jsonstringparse.maps[arrayid].MapCode + "'></a>"         
+        CardImage.innerHTML = "<a href='" +jsonstringparse.maps[arrayid].IMG2[i2] + "' data-lightbox='" + jsonstringparse.maps[arrayid].MapCode + "'></a>"         
         CardImage.setAttribute('class', 'cardimagecode' );
         document.getElementById('mapcard' + jsonstringparse.maps[arrayid].MapCode).appendChild(CardImage);   
     }
