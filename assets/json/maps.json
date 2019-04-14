@@ -169,6 +169,28 @@
                 ]
         },
         {
+            "MapName": "JESGRAN’S DEATHRUN 2.0",
+            "Author": "JesGran",
+            "IMGUrl": "https://i.imgur.com/8hzxjHE.png",
+            "MapCode": "1103-0256-3362",
+            "SAC" : "JesGran",
+            "IMG2" : [
+                "https://i.imgur.com/8hzxjHE.png"
+                ]
+        },
+        {
+            "MapName": "Cizzorz Deathrun Challange",
+            "Author": "ITSCIZZORZ",
+            "IMGUrl": "https://i.imgur.com/4uZoZ1n.png",
+            "MapCode": "0940-9970-7913",
+            "SAC" : "ITSCIZZORZ",
+            "IMG2" : [
+                "https://i.imgur.com/4uZoZ1n.png",
+                "https://i.imgur.com/ZcKmfrm.png",
+                "https://i.imgur.com/k5Uxki2.png"
+                ]
+        },
+        {
             "MapName": "Kingdom of stone Parkour",
             "Author": "vanyapoker",
             "IMGUrl": "https://i.imgur.com/0K2Y0R0.jpg",
