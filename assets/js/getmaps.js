@@ -5,6 +5,21 @@ var jsonstringparse;
 var MapsToGet = 3;
 var listElm;
 
+var ajaxIsLoading = false;
+var osInstance = $('body').overlayScrollbars({
+	callbacks: {
+    onScroll: function() 
+    { 
+	    var scrollInfo = this.scroll();
+	    if (scrollInfo.position.y === scrollInfo.max.y) {
+      	if(!ajaxIsLoading) {
+        	getNextCommunications();
+        }
+	    }
+		},
+	}
+}).overlayScrollbars();
+
 
 $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.json", function( json ) {
     jsonstring = json;
