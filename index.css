@@ -121,7 +121,7 @@ div {
 footer {
     clear: both;
     position: relative;
-    height: 70px;
+    height: 130px;
     margin-top: -40px;
     background-color: darkslategray;
     text-align: left;
@@ -129,8 +129,17 @@ footer {
 
 }
 
-footer p{
-    color: #c0c0c0;
+#footer{
+    color: #e0e0e0;
     font-size: 20px;
     text-align: center;
+}
+.footer{
+    color: #e0e0e0;
+    font-size: 20px;
+    text-align: center;
+}
+
+#maps{
+    font-size: 25px;
 }
