@@ -11,18 +11,17 @@ var mapsadded = 0;
 $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.json", function( json ) {
     jsonstring = json;
     ForEachLoopAddNew(jsonstring);
-    colorLog('"' + json.maps.length + '"', 'info');
+    colorLog('"Total maps: ' + json.maps.length + '"', 'info');
 
 });
 
 function ForEachLoopAddNew(json){
     for (i, l = json.maps.length; i < l && i < MapsToGet; i++) {
         AddCreativeMapDelay(i)
-    
-        console.log(json.maps[i].SAC);
-        console.log(json.maps[i].Author);
-        console.log(json.maps[i].IMGUrl);
-        console.log(json.maps[i].MapCode);
+        colorLog('"' + json.maps[i].SAC + '"', 'success');
+        colorLog('"' + json.maps[i].Author + '"', 'success');
+        colorLog('"' + json.maps[i].IMGUrl + '"', 'success');
+        colorLog('"' + json.maps[i].MapCode + '"', 'success');
     
     
     
@@ -95,7 +94,7 @@ function AddCreativeMapDelay(url){
 for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
     console.log(jsonstringparse.maps[arrayid].IMG2[i2]);
     if(jsonstringparse.maps[arrayid].IMG2[i2] == jsonstringparse.maps[arrayid].IMGUrl){
-        console.log('Found duplicate image, skipping...');
+        colorLog('[John Wick] Found a duplicate image, skipping....', 'warning');
     }
     else{
 
