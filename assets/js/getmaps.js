@@ -97,6 +97,7 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
     if(jsonstringparse.maps[arrayid].IMG2[i2] == jsonstringparse.maps[arrayid].IMGUrl){
         console.log('Found duplicate image, skipping...');
     }
+    else{
 
         //Add image
 
@@ -104,6 +105,8 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
         CardImage.innerHTML = "<a href='" +jsonstringparse.maps[arrayid].IMG2[i2] + "' data-lightbox='" + jsonstringparse.maps[arrayid].MapCode + "'></a>"         
         CardImage.setAttribute('class', 'cardimagecode' );
         document.getElementById('mapcard' + jsonstringparse.maps[arrayid].MapCode).appendChild(CardImage);   
+
+    }
     }
    }
 
