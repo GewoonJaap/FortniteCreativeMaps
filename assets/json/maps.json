@@ -575,6 +575,16 @@
                 "./assets/images/placeholder.jpg"
                 ]
         }
+        {
+            "MapName": "SELAGE'S EDIT COURSES!",
+            "Author": "Selage",
+            "IMGUrl": "./assets/images/placeholder.jpg",
+            "MapCode": "3847-9331-2064",
+            "SAC" : "senix",
+            "IMG2" : [
+                "./assets/images/placeholder.jpg"
+                ]
+        }
 
     ]
 

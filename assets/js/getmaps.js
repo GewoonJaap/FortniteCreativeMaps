@@ -48,8 +48,15 @@ function AddCreativeMapDelay(url){
    //Add map to site
 
    function AddCreativeMap(arrayid){
-       //Create CARD
 
+      
+//Check for duplicate map
+       if(document.getElementById("mapcard" + jsonstring.maps[arrayid].MapCode)){
+           colorLog('[John Wick] Found a duplicate map, ignoring.', 'warning');
+       }
+
+       else{
+ //Create CARD
     var mapdiv = document.createElement("div");             
     mapdiv.setAttribute('class', 'mapcard' );
     mapdiv.setAttribute('id', 'mapcard' + jsonstring.maps[arrayid].MapCode );
@@ -108,6 +115,7 @@ for (i2 = 0, l2 = jsonstringparse.maps[arrayid].IMG2.length; i2 < l2; i2++) {
 
     }
     }
+}
    }
 
 
