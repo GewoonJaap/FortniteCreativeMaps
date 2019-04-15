@@ -52,7 +52,7 @@ function AddCreativeMapDelay(url){
       
 //Check for duplicate map
        if(document.getElementById("mapcard" + jsonstring.maps[arrayid].MapCode)){
-           colorLog('[John Wick] Found a duplicate map, ignoring.', 'warning');
+           colorLog('[John Wick] Found a duplicate map with id:' + jsonstring.maps[arrayid].MapCode + ', ignoring.', 'warning');
        }
 
        else{
