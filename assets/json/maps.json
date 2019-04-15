@@ -239,6 +239,36 @@
                 ]
         },
         {
+            "MapName": "20 MINUTES LEFT",
+            "Author": "jon",
+            "IMGUrl": "https://i.imgur.com/5YNqf1n.png",
+            "MapCode": "4780-5388-0606",
+            "SAC" : "jon",
+            "IMG2" : [
+                "https://i.imgur.com/5YNqf1n.png"
+                ]
+        },
+        {
+            "MapName": "Fortnite X Portal",
+            "Author": "bludrive",
+            "IMGUrl": "https://i.imgur.com/W6GVaTd.png",
+            "MapCode": "8883-7894-7324",
+            "SAC" : "bludrive",
+            "IMG2" : [
+                "https://i.imgur.com/W6GVaTd.png"
+                ]
+        },
+        {
+            "MapName": "Stunt Race",
+            "Author": "justwemo",
+            "IMGUrl": "https://i.imgur.com/7emmWI4.jpg",
+            "MapCode": "5596-2043-2727",
+            "SAC" : "justwemo",
+            "IMG2" : [
+                "https://i.imgur.com/7emmWI4.jpg"
+                ]
+        },
+        {
             "MapName": "Castle of dispair",
             "Author": "calyps-0",
             "IMGUrl": "https://i.imgur.com/q6F9JN6.jpg",
