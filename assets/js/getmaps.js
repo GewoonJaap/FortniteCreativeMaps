@@ -12,7 +12,7 @@ $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.j
     jsonstring = json;
     ForEachLoopAddNew(jsonstring);
     colorLog('"Total maps: ' + json.maps.length + '"', 'info');
-    document.getElementById(maps).innerText = 'Total maps available: ' + json.maps.length;
+    document.getElementById('maps').innerText = 'Total maps available: ' + json.maps.length;
 
 });
 
