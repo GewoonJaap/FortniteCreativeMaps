@@ -11,7 +11,7 @@ var mapsadded = 0;
 $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.json", function( json ) {
     jsonstring = json;
     ForEachLoopAddNew(jsonstring);
-    console.log('"' + json.maps.length + '"', 'info');
+    colorLog('"' + json.maps.length + '"', 'info');
 
 });
 
