@@ -36,7 +36,7 @@ function ForEachLoopAddNew(json){
 function AddCreativeMapDelay(url){
     
     jsonstringparse = jsonstring;
-    console.log(jsonstringparse.maps[url].Author + " lol2")
+    console.log("Found a map: " + jsonstringparse.maps[url].MapCode)
     var min = 1,
        max = 2;
        id = url;
