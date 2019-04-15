@@ -18,10 +18,10 @@ $.getJSON( "https://gewoonjaap.github.io/FortniteCreativeMaps/assets/json/maps.j
 function ForEachLoopAddNew(json){
     for (i, l = json.maps.length; i < l && i < MapsToGet; i++) {
         AddCreativeMapDelay(i)
-        colorLog('"' + json.maps[i].SAC + '"', 'success');
-        colorLog('"' + json.maps[i].Author + '"', 'success');
-        colorLog('"' + json.maps[i].IMGUrl + '"', 'success');
-        colorLog('"' + json.maps[i].MapCode + '"', 'success');
+        colorLog("'" + json.maps[i].SAC + "'", 'success');
+        colorLog('"' + json.maps[i].Author + "'", 'success');
+        colorLog('"' + json.maps[i].IMGUrl + "'", 'success');
+        colorLog("'" + json.maps[i].MapCode + "'", 'success');
     
     
     
