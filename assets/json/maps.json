@@ -28,6 +28,36 @@
                 ]
         },
         {
+            "MapName": "END GAME EVA",
+            "Author": "EVAEVAKURY",
+            "IMGUrl": "https://i.imgur.com/UqbzFsT.jpg",
+            "MapCode": "2297-8748-6392",
+            "SAC" : "EVAEVAKURY",
+                        "IMG2" : [
+                "https://i.imgur.com/UqbzFsT.jpg"
+                ]
+        },
+        {
+            "MapName": "THE BIG COUP: BANK ROBBERY",
+            "Author": "PRUDIZ",
+            "IMGUrl": "https://i.imgur.com/VPGrV82.png",
+            "MapCode": "9266-2621-8821",
+            "SAC" : "PRUDIZ",
+                        "IMG2" : [
+                "https://i.imgur.com/VPGrV82.png"
+                ]
+        },
+        {
+            "MapName": "LLAMA ROUNDUP!",
+            "Author": "brendannnd",
+            "IMGUrl": "https://i.imgur.com/RsSWtsS.jpg",
+            "MapCode": "7594-1124-1040",
+            "SAC" : "brendannnd",
+                        "IMG2" : [
+                "https://i.imgur.com/RsSWtsS.jpg"
+                ]
+        },
+        {
             "MapName": "Lefty Leave",
             "Author": "Senix",
             "IMGUrl": "https://i.imgur.com/LMytOaa.png",
