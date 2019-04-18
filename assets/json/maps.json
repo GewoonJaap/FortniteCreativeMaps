@@ -27,6 +27,16 @@
                 "https://static-assets-prod.epicgames.com/fn/codes/9764-1593-4118.jpg"
                 ]
         },
+                {
+            "MapName": "CUSTOM CAR CARPET",
+            "Author": "rallred84",
+            "IMGUrl": "https://i.imgur.com/bnSscUP.png",
+            "MapCode": "1865-9623-9180",
+            "SAC" : "rallred84",
+                        "IMG2" : [
+                "https://i.imgur.com/bnSscUP.png"
+                ]
+        },
         {
             "MapName": "END GAME EVA",
             "Author": "EVAEVAKURY",
