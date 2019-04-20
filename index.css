@@ -76,7 +76,7 @@ a:hover{
     height: 50%;
     width: 70%;
     z-index: 10;
-    background-image: url('/assets/images/placeholder.jpg');
+    background-image: url('./assets/images/placeholder.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
