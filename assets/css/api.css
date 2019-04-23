@@ -25,6 +25,11 @@ body{
     background-position: center;
     transition: all 1.2s ease-in-out;
     text-align: center;
+    
+}
+
+.newstext{
+    font-family: BurbankBigCondensed-Bold;
 }
 
 .dailynewsimg{
@@ -32,4 +37,13 @@ body{
     width: 640px;
     transition: all 1.2s ease-in-out;
     border-radius: 5px;
+}
+
+@font-face {
+    font-family: BurbankBigCondensed-Bold;
+    src: url('./assets/fonts/BurbankBigCondensed-Bold.otf');
+}
+
+div {
+    font-family: BurbankBigCondensed-Bold;
 }
