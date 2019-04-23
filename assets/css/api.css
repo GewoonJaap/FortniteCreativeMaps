@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('./assets/images/backgrounds/bullseye-in-fortnite-season-6-4k-9w-1920x1080.jpg');
+    user-select: none;
+}
+
+.dailynewscard{
+    margin-top: 5%;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255);
+    box-shadow: 5px 5px 8px lightgray;
+    width: 750px;
+    height: 470px;
+    margin-left: 10%;
+    float: left;
+    background-image: url('/assets/images/newsbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 1.2s ease-in-out;
+    text-align: center;
+}
+
+.dailynewsimg{
+    height: 340px;
+    width: 640px;
+    transition: all 1.2s ease-in-out;
+    border-radius: 5px;
+}
