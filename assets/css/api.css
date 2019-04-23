@@ -14,9 +14,9 @@ body{
     background-color: lightblue;
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255);
-    box-shadow: 5px 5px 8px lightgray;
+    box-shadow: 5px 5px 8px lightblue;
     width: 750px;
-    height: 470px;
+    height: 520px;
     margin-left: 10%;
     float: left;
     background-image: url('/assets/images/newsbackground.jpg');
@@ -28,8 +28,15 @@ body{
     
 }
 
-.newstext{
+.newstexthead{
     font-family: BurbankBigCondensed-Bold;
+    color: white;
+    font-size: 30px;
+}
+.newstextnormal{
+    font-family: BurbankBigCondensed-Bold;
+    color: white;
+    font-size: 22px;
 }
 
 .dailynewsimg{
@@ -41,7 +48,7 @@ body{
 
 @font-face {
     font-family: BurbankBigCondensed-Bold;
-    src: url('/assets/fonts/BurbankBigCondensed-Bold.otf');
+    src: url('https://gewoonjaap.github.io/FortniteCreativeMaps/assets/fonts/BurbankBigCondensed-Bold.otf');
 }
 
 div {
