@@ -23,7 +23,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 1.2s ease-in-out;
+    transition: all 1.2s ease-in;
     text-align: center;
     
 }
@@ -41,7 +41,7 @@ body{
 
 @font-face {
     font-family: BurbankBigCondensed-Bold;
-    src: url('./assets/fonts/BurbankBigCondensed-Bold.otf');
+    src: url('/assets/fonts/BurbankBigCondensed-Bold.otf');
 }
 
 div {
