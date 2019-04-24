@@ -81,6 +81,14 @@ margin-top: 15%;
     border-radius: 5px;
 }
 
+.dailynewsimg2{
+    background-image: url('https://i.imgur.com/Y5zG868.png');
+    background-size: 640px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .title{
     font-family: BurbankBigCondensed-Bold;
     text-align: center;
