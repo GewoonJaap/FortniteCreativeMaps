@@ -41,7 +41,7 @@ body {
   
   /* Add an active class to highlight the current page */
   .active {
-    background-color: #02fff6;
+    background-color: #eaeaea;
     color: white;
     border-radius: 3px;
   }
