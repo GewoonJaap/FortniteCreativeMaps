@@ -10,7 +10,7 @@ body{
 }
 
 .dailynewscard{
-    margin-top: 5%;
+    margin-top: 3%;
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255);
     box-shadow: 5px 5px 8px lightblue;
@@ -46,6 +46,27 @@ body{
     transition: all 1.2s ease-in-out;
     border-radius: 5px;
 }
+
+.title{
+    font-family: BurbankBigCondensed-Bold;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 90px;
+    text-shadow: 4px 4px 6px #000000;
+    z-index: 1000;
+    margin-bottom: 0;
+    -webkit-transition: text-shadow 1s; /* For Safari 3.1 to 6.0 */
+    transition: text-shadow 1s;
+    -webkit-transition: font-size 1s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 1s;
+}
+
+.title:hover{
+    text-shadow: 6px 6px 8px #000000;
+    font-size: 95px;
+}
+
 
 @font-face {
     font-family: BurbankBigCondensed-Bold;
