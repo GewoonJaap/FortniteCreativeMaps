@@ -4,9 +4,9 @@ var url = 'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/p
 GetData();
 
 function GetData(){
-    $.getJSON( "https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game?callback=?", function( data ){
+    $.getJSON( "https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game?callback=?", function( json ){
         console.log('hey');
-        console.log(data); // Logs "jQuery Howto"
+        console.log(json.lastModified); // Logs "jQuery Howto"
       });
 
     }
