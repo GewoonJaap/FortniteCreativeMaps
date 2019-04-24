@@ -14,6 +14,8 @@ $.ajaxSetup({
     jsonstring = json;
     colorLog('[Yarr] Setting up the background', 'success');
     document.getElementById('body').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.battleRoyale.message.image +')';
+    document.getElementById('playlists').innerHTML = 'Total playlists available: ' + jsonstring.playlistimages.playlistimages.images.length;
+    document.getElementById('update').innerHTML = 'Updated on: ' + jsonstring.playlistimages.lastModified;
     PlayListLoop();
 
 });

@@ -108,6 +108,35 @@ margin-top: 15%;
     font-size: 95px;
 }
 
+footer {
+    clear: both;
+    position: relative;
+    height: 150px;
+    margin-top: -40px;
+    background-color: darkslategray;
+    text-align: left;
+    width: 100%;
+
+}
+
+#footer{
+    color: #e0e0e0;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+.footer{
+    color: #e0e0e0;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 @font-face {
     font-family: BurbankBigCondensed-Bold;

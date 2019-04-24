@@ -16,6 +16,7 @@ $.ajaxSetup({
     document.getElementById('dailynewsbrdiv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.battleRoyale.message.image +')';
     document.getElementById('dailynewscreativediv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.creative.message.image +')';
     document.getElementById('dailynewsstwdiv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.saveTheWorld.message.image +')';
+    document.getElementById('update').innerHTML = 'Updated on: ' + jsonstring.subgameselectdata.lastModified;
     DailyNewsLoop(); 
     CreativeNewsLoop();
     STWNewsLoop();
