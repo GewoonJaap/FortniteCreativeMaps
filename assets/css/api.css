@@ -23,6 +23,7 @@ margin-top: 15%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
 #dailynewscreativediv{
@@ -92,7 +93,7 @@ margin-top: 15%;
 .title{
     font-family: BurbankBigCondensed-Bold;
     text-align: center;
-    margin-top: 0px;
+    padding-top: 10px;
     color: white;
     font-size: 90px;
     text-shadow: 4px 4px 6px #000000;
