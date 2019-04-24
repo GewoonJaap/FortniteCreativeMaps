@@ -9,8 +9,42 @@ body{
     user-select: none;
 }
 
+#dailynewsbrdiv{
+    padding-top: 5%;
+    height: 150%;
+}
+
+#dailynewscreativediv{
+margin-top: 15%;
+}
+
+#dailynewsbrdiv{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#dailynewscreativediv{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 150%;
+}
+
+#dailynewsstwdiv{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 150%;
+}
+
+
+
 .dailynewscard{
-    margin-top: 3%;
+    margin-top: 5%;
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255);
     box-shadow: 5px 5px 8px lightblue;
@@ -50,11 +84,10 @@ body{
 .title{
     font-family: BurbankBigCondensed-Bold;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0px;
     color: white;
     font-size: 90px;
     text-shadow: 4px 4px 6px #000000;
-    z-index: 1000;
     margin-bottom: 0;
     -webkit-transition: text-shadow 1s; /* For Safari 3.1 to 6.0 */
     transition: text-shadow 1s;
