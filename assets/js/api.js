@@ -1,3 +1,4 @@
+console.log("!!!! api.js Loaded !!!!");
 var jsonstring;
 var url = 'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game'
 
@@ -11,9 +12,7 @@ $.ajaxSetup({
 
   $.getJSON( "https://rhetorical-clam.glitch.me/", function( json ) {
     jsonstring = json;
-    console.log(jsonstring.battleroyalenews.news);
-    console.log(jsonstring.battleroyalenews.news.messages.length)
-    console.log(jsonstring.subgameselectdata.creative.message.image);
+    colorLog('[Yarr] Setting up the background', 'success');
     document.getElementById('dailynewsbrdiv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.battleRoyale.message.image +')';
     document.getElementById('dailynewscreativediv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.creative.message.image +')';
     document.getElementById('dailynewsstwdiv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.saveTheWorld.message.image +')';
