@@ -11,15 +11,14 @@ body{
 
 .dailynewscard{
     margin-top: 5%;
-    background-color: lightblue;
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255);
     box-shadow: 5px 5px 8px lightblue;
     width: 750px;
     height: 520px;
-    margin-left: 10%;
+    margin-left: 6%;
     float: left;
-    background-image: url('/assets/images/newsbackground.jpg');
+    background-image: url('https://gewoonjaap.github.io/FortniteCreativeMaps/assets/images/llama.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,11 +31,13 @@ body{
     font-family: BurbankBigCondensed-Bold;
     color: white;
     font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
 }
 .newstextnormal{
     font-family: BurbankBigCondensed-Bold;
     color: white;
-    font-size: 22px;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .dailynewsimg{
