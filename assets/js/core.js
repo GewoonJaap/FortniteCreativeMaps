@@ -51,7 +51,7 @@ function randombg(){
                  "url('./assets/images/backgrounds/S7_skulltrooper.png')",
                  "url('./assets/images/backgrounds/S7_tenderdefender.png')",
                  "url('./assets/images/backgrounds/S7_Week6.png')",
-                 "url('./assets/images/backgrounds/S8_Main.png')",
+                 "url('./assets/images/backgrounds/S8_Main.jpg')",
                  "url('./assets/images/backgrounds/S8_Week9.png')",
                  "url('./assets/images/backgrounds/S8_Week10.png')",
                  "url('./assets/images/backgrounds/STW-Yarr.png')",
