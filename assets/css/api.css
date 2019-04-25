@@ -11,7 +11,9 @@ body{
 
 #dailynewsbrdiv{
     padding-top: 5%;
-    height: 150%;
+    min-height: 150%;
+    display: inline-block;
+    width: 100%;
 }
 
 #dailynewscreativediv{
@@ -31,7 +33,9 @@ margin-top: 15%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 150%;
+    min-height: 150%;
+    display: inline-block;
+    width: 100%;
 }
 
 #dailynewsstwdiv{
@@ -39,7 +43,9 @@ margin-top: 15%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 150%;
+    min-height: 150%;
+    display: inline-block;
+    width: 100%;
 }
 
 
@@ -59,6 +65,7 @@ margin-top: 15%;
     background-position: center;
     transition: all 1.2s ease-in;
     text-align: center;
+    margin-bottom: 5%;
     
 }
 
@@ -98,15 +105,6 @@ margin-top: 15%;
     font-size: 90px;
     text-shadow: 4px 4px 6px #000000;
     margin-bottom: 0;
-    -webkit-transition: text-shadow 1s; /* For Safari 3.1 to 6.0 */
-    transition: text-shadow 1s;
-    -webkit-transition: font-size 1s; /* For Safari 3.1 to 6.0 */
-    transition: font-size 1s;
-}
-
-.title:hover{
-    text-shadow: 6px 6px 8px #000000;
-    font-size: 95px;
 }
 
 footer {
