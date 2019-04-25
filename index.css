@@ -43,13 +43,6 @@ a{
     transition: unset;
 }
 
-a:hover{
-    color: orange;
-    text-shadow: 2px 2px #ff0000;
-    transform: scale(1.1);
-    font-size: 34px;
-}
-
 .nomarkup:hover{
     text-shadow: none;
     transform: none;
