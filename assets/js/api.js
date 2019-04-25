@@ -1,6 +1,9 @@
 console.log("!!!! api.js Loaded !!!!");
 var jsonstring;
-var url = 'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game'
+var url = 'https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game';
+var BattleRoyaleImage;
+var STWImage;
+var CreativeImage;
 
 
 $.ajaxSetup({
@@ -16,9 +19,15 @@ $.ajaxSetup({
     colorLog('[Yarr] Background BattleRoyale: ' + jsonstring.subgameselectdata.battleRoyale.message.image, 'success');
     colorLog('[Yarr] Background Creative: ' + jsonstring.subgameselectdata.creative.message.image, 'success');
     colorLog('[Yarr] Background Save the World: ' + jsonstring.subgameselectdata.saveTheWorld.message.image, 'success');
-    document.getElementById('dailynewsbrdiv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.battleRoyale.message.image +')';
-    document.getElementById('dailynewscreativediv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.creative.message.image +')';
-    document.getElementById('dailynewsstwdiv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.saveTheWorld.message.image +')';
+    BattleRoyaleImage = jsonstring.subgameselectdata.battleRoyale.message.image;
+    CreativeImage = jsonstring.subgameselectdata.creative.message.image;
+    STWImage = jsonstring.subgameselectdata.saveTheWorld.message.image;
+    if(BattleRoyaleImage == 'https://cdn2.unrealengine.com/Fortnite/fortnite-game/subgameselect/08BR_LTM_Endgame_SubgameSelect_v2-1920x1080-1db25cf643f699644238c7a9877eef1710c50e7d.jpg'){
+        BattleRoyaleImage = 'assets/images/backgrounds/Endgame_Loadingscreen.png';
+    }
+    document.getElementById('dailynewsbrdiv').style.backgroundImage = 'url(' + BattleRoyaleImage +')';
+    document.getElementById('dailynewscreativediv').style.backgroundImage = 'url(' + CreativeImage +')';
+    document.getElementById('dailynewsstwdiv').style.backgroundImage = 'url(' + STWImage +')';
     document.getElementById('update').innerHTML = 'Updated on: ' + jsonstring.subgameselectdata.lastModified;
     DailyNewsLoop(); 
     CreativeNewsLoop();
