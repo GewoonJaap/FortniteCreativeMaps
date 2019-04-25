@@ -13,6 +13,9 @@ $.ajaxSetup({
   $.getJSON( "https://rhetorical-clam.glitch.me/", function( json ) {
     jsonstring = json;
     colorLog('[Yarr] Setting up the background', 'success');
+    colorLog('[Yarr] Background BattleRoyale: ' + jsonstring.subgameselectdata.battleRoyale.message.image, 'success');
+    colorLog('[Yarr] Background Creative: ' + jsonstring.subgameselectdata.creative.message.image, 'success');
+    colorLog('[Yarr] Background Save the World: ' + jsonstring.subgameselectdata.saveTheWorld.message.image, 'success');
     document.getElementById('dailynewsbrdiv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.battleRoyale.message.image +')';
     document.getElementById('dailynewscreativediv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.creative.message.image +')';
     document.getElementById('dailynewsstwdiv').style.backgroundImage = 'url(' + jsonstring.subgameselectdata.saveTheWorld.message.image +')';
