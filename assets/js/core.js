@@ -54,6 +54,7 @@ function randombg(){
                  "url('./assets/images/backgrounds/S8_Main.png')",
                  "url('./assets/images/backgrounds/S8_Week9.png')",
                  "url('./assets/images/backgrounds/S8_Week10.png')",
+                 "url('./assets/images/backgrounds/STW-Yarr.png')",
                  "url('./assets/images/backgrounds/galaxy-man-fortnite-season-6-4k-2y-1920x1080.jpg')"];
   document.getElementById('body').style.backgroundImage=bigSize[random];
 }
